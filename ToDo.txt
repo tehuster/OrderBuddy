@@ -1,0 +1,19 @@
+Vereiste voor het bestelsysteem:
+// Kolom met smaak ijs in de vorm van een afbeelding
+// Kolom met omschrijving van de gelato / sorbet in tekst
+// Kolom met de eenheid van de gelato / sorbet aangeduid in liters (je mag uitgaan van
+5 liter inhoud).
+
+- Toekomst wens: dropdown met keuze voor meerdere eenheden zoals 2,5
+liter, 5 liter, 8 liter, 14 liter.
+
+// Kolom met de prijs per liter aangeduid in euro’s
+// Kolom met aantal te bestellen stuks aangeduid in cijfers
+- Toekomst wens: kolom met staffelkorting bij grotere afname, bijvoorbeeld 100 stuks
+= 10% korting, 200 stuks = 20% korting etc.
+- Onderaan de bestellijst moet een veld komen met een samenvatting van de totale
+bestelling in liters, euro’s en stuks. Vervolgens moet de klant kunnen afrekenen in
+een check-out pagina en kunnen kiezen voor betalingsmogelijkheden. Wij maken in
+dit voorbeeld gebruik van Mollie.
+In de back-end moeten bovenstaande kolommen aanpasbaar zijn voor de klant. En er moet
+een koppeling gemaakt kunnen worden met Mollie.
